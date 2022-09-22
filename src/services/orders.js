@@ -1,6 +1,6 @@
-class carService{
+class orderService{
 
-    async getAll (){
+    async getAll(){
 
     }
     async getOne(){
@@ -17,4 +17,4 @@ class carService{
     }
 }
 
-module.exports = { carService }
+module.exports = { orderService }
