@@ -8,7 +8,7 @@ const basename = path.basename(__filename);
 //const { envConfig } = require(__dirname + '/../../config/envConfig');
 const db = {};
 
-const sequelize = new Sequelize(envConfig.db.name, envConfig.db.name, envConfig.db.password, envConfig);
+const sequelize = new Sequelize(envConfig.db.name, envConfig.db.name, envConfig.db.password, envConfig.db.dialect);
 
 fs
   .readdirSync(__dirname)

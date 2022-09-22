@@ -26,7 +26,7 @@ exports.envConfig = {
         host: DB_HOST,
         name: DB_NAME,
         port: DB_PORT,
-        dialect:'mysql',
+        dialect: 'mysql',
     },
     jwt: {
         secret: SECRET_TOKEN
